@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<head>
+	<title>Bootstrap cite</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body style="background: url('https://ru.cat-background.ambientcat.com/%D0%A4%D0%BE%D0%BD%D1%8B-2160-1920/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B5-%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%B5-%D0%9A%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BA%D0%BE%D1%82%D0%B5%D0%BD%D0%BE%D0%BA-209.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;">
+	<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+Helping homeless pets
+</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BD%D0%B0/Desktop/JS/bootstrap/index.html">Main
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BD%D0%B0/Desktop/JS/bootstrap/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BD%D0%B0/Desktop/JS/bootstrap/whyrescue.html">Why rescue?</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BD%D0%B0/Desktop/JS/bootstrap/contact.html?">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br/>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Contact us</h5>
+            <form class="form-signin" id="form">
+              <div class="form-label-group">
+                <input type="text"  class="form-control" placeholder="Your name" required autofocus>
+                <label>Your name</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="text"  class="form-control" placeholder="Your e-mail or number" required>
+                <label>Your e-mail or number</label>
+              </div>
+
+              
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" id="btn">SEND</button>
+              <hr class="my-4">
+              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Facebook</button>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<script type="text/javascript">
+  var form = document.getElementById('form');
+var btn = document.getElementById('btn');
+
+
+btn.onclick = function () {
+  form.innerHTML = "Now that you have read all the information, when finding a homeless pet, help him yourself or contact a real organization. "
+
+}
+</script>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
